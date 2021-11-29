@@ -1,0 +1,28 @@
+{
+  "name": "oxid-academy/graphql-category",
+  "description": "Extends the Storefront module.",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop", "graphql", "oxid academy"],
+  "homepage": "https://www.oxid-esales.com",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "OXID Academy",
+      "email": "academy@oxid-esales.com"
+    }
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oxac/graphql-category"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "oxid-esales/graphql-storefront": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidAcademy\\GraphQL\\Category\\": "../../../source/modules/oxac/graphql-category/src"
+    }
+  }
+}
