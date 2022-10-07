@@ -17,12 +17,13 @@
     }
   },
   "require": {
-    "php": "^7.4",
-    "oxid-esales/graphql-storefront": "^1.0"
+    "php": "^7.4 | ^8.0",
+    "oxid-esales/oxideshop-ce": "^6.12 | 6.5.x-dev",
+    "oxid-esales/graphql-storefront": "^v2.1.0"
   },
   "autoload": {
     "psr-4": {
-      "OxidAcademy\\GraphQL\\Category\\": "../../../source/modules/oxac/graphql-category/src"
+      "OxidAcademy\\GraphQL\\Category\\": ".src"
     }
   }
 }
